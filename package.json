@@ -1,0 +1,54 @@
+{
+  "name": "babbler-script-react",
+  "version": "0.0.3",
+  "description": "React widgets for babbler-script-js",
+  "main": "lib/index.js",
+  "files": [
+    "lib/index.js",
+    "lib/BabblerScriptControlBar.js",
+    "lib/BabblerScriptLoad.js",
+    "lib/BabblerScriptMicroState.js",
+    "lib/BabblerScriptProgram.js",
+    "lib/BabblerScriptProgramCounter.js",
+    "lib/BabblerScriptState.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "babbler-js": "^0.6.0",
+    "babbler-script-js": "^0.0.2",
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0",
+    "elemental": "^0.6.1",
+    "react-addons-css-transition-group": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-1": "^6.13.0",
+    "babel-register": "^6.14.0"
+  },
+  "scripts": {
+    "build": ". scripts/build.sh",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1i7/babbler-script-react.git"
+  },
+  "keywords": [
+    "babbler",
+    "arduino",
+    "chipkit",
+    "robot",
+    "cnc",
+    "react"
+  ],
+  "author": "Anton Moiseev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1i7/babbler-script-react/issues"
+  },
+  "homepage": "https://github.com/1i7/babbler-script-react#readme"
+}
